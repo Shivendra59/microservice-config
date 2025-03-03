@@ -1,10 +1,7 @@
-spring:
-  application:
-    name: CONFIG-DEV
-    
 eureka:
   instance :
     prefer-ip-address: true  # Register with IP instead of hostname
+    hostname: localhost  # Explicitly set the hostname
   client:
     fetch-registry : true
     register-with-eureka : true
