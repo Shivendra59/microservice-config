@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: CONFIG-DEFUALT
-    
 eureka:
   instance :
     prefer-ip-address: true  # Register with IP instead of hostname
